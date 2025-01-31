@@ -6,6 +6,8 @@ import performanceTrendGraphRouter from "./routes/performanceGraph.route.js"
 import mistakeRouter from "./routes/mistake.route.js"
 import compareRouter from "./routes/compare.route.js"
 import recommendedTopicsRouter from "./routes/recommended.route.js"
+import predicRankRouter from "./routes/predictRank.route.js"
+import predictCollegeRouter from "./routes/predictCollege.route.js"
 
 const app = express();
 
@@ -29,5 +31,9 @@ app.use("/mistake-analysis",mistakeRouter)
 app.use("/compare-performance",compareRouter)
 
 app.use("/recommended-topics",recommendedTopicsRouter)
+
+app.use("/predict-rank",predicRankRouter)
+
+app.use("/predict-college",predictCollegeRouter)
 
 export { app }
