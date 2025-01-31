@@ -79,13 +79,13 @@ curl -X POST "http://localhost:8000/predict-rank?score=500"
 
 ## 📷 Screenshots & Visualizations
 ### 1️⃣ Performance Trend Graph
-![alt text](TrendGraph.jpeg)
+![alt text](./public/TrendGraph.jpeg)
 
 ### 2️⃣ Rank Prediction Example
-![alt text](image.png)
+![alt text](./public/image.png)
 
 ### 3️⃣ College Prediction Example
-![alt text](image-1.png)
+![alt text](./public/image-1.png)
 
 
 
